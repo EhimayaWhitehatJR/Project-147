@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Living Room</title>
+
+    <meta name="description" content="Hello, WebVR! • A-Frame" />
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+
+</head>
+
+
+<body>
+    <a-scene>
+
+        <!--Camera-->
+        <a-camera look-controls-enabled wasd-controls-enabled position="0 5 15"></a-camera>
+
+
+        <!--Sky-->
+        <a-sky src="https://raw.githubusercontent.com/whitehatjr/VR-PRO-C147/main/assets/sky.jpg">
+        </a-sky>
+
+        <a-plane position="0 0 0" rotation="-90 0 0" width="20" height="10"
+            src="https://raw.githubusercontent.com/whitehatjr/VR-PRO-C147/main/assets/carpet.jpg">
+        </a-plane>
+
+        <a-box src="https://raw.githubusercontent.com/whitehatjr/VR-PRO-C147/main/assets/wall.jpeg"
+            position="0 6.5 -4.5" width="20" height="12">
+        </a-box>
+
+        <a-plane position="-5 6 -3.3" rotation="0 0 0" width="4" height="6"
+            src="https://raw.githubusercontent.com/whitehatjr/VR-PRO-C147/main/assets/left-poster.png">
+        </a-plane>
+
+        <a-plane position="0 6 -3.3" rotation="0 0 0" width="4" height="6"
+            src="https://raw.githubusercontent.com/whitehatjr/VR-PRO-C147/main/assets/middle-poster.png">
+        </a-plane>
+
+        <a-plane position="5 6 -3.3" rotation="0 0 0" width="4" height="6"
+            src="https://raw.githubusercontent.com/whitehatjr/VR-PRO-C147/main/assets/left-poster.png">
+        </a-plane>
+
+        <!-- Chair On Right -->
+        <a-cylinder src="https://raw.githubusercontent.com/whitehatjr/VR-PRO-C147/main/assets/chair.jpeg"
+            position="6.5 -0.4 0" radius="1.2" height="1.2">
+        </a-cylinder>
+
+        <a-cylinder src="https://raw.githubusercontent.com/whitehatjr/VR-PRO-C147/main/assets/chair.jpeg"
+            position="6.5 1 0" radius="0.2" height="1.2">
+        </a-cylinder>
+
+        <a-cylinder src="https://raw.githubusercontent.com/whitehatjr/VR-PRO-C147/main/assets/chair.jpeg"
+            position="6.5 1.9 0" rotation="0 0 0" radius="1.3" height="0.2"></a-cylinder>
+
+        <a-cylinder src="https://raw.githubusercontent.com/whitehatjr/VR-PRO-C147/main/assets/chair.jpeg"
+            position="7.5 3 0" rotation="90 -90 0" radius="1.3" height="0.2"></a-cylinder>
+
+
+        <!-- Chair On Left -->
+        <a-cylinder src="https://raw.githubusercontent.com/whitehatjr/VR-PRO-C147/main/assets/chair.jpeg"
+            position="-6.5 -0.4 0" radius="1.2" height="1.2">
+        </a-cylinder>
+
+        <a-cylinder src="https://raw.githubusercontent.com/whitehatjr/VR-PRO-C147/main/assets/chair.jpeg"
+            position="-6.5 1 0" radius="0.2" height="1.2">
+        </a-cylinder>
+
+        <a-cylinder src="https://raw.githubusercontent.com/whitehatjr/VR-PRO-C147/main/assets/chair.jpeg"
+            position="-6.5 1.9 0" rotation="0 0 0" radius="1.3" height="0.2"></a-cylinder>
+
+        <a-cylinder src="https://raw.githubusercontent.com/whitehatjr/VR-PRO-C147/main/assets/chair.jpeg"
+            position="-7.5 3 0" rotation="90 -90 0" radius="1.3" height="0.2"></a-cylinder>
+
+
+        <!-- Center table -->
+        <a-box
+          position="0 2 0"
+          rotation="90 0 0"
+          width="9"
+          height="3"
+          depth="0.5"
+          src="https://raw.githubusercontent.com/whitehatjr/VR-PRO-C147/main/assets/dining-table.jpeg"
+          ></a-box>
+
+          <a-box
+            position="0 1 0"
+            rotation="90 0 0"
+            width="3"
+            height="2"
+            depth="1"
+            src="https://raw.githubusercontent.com/whitehatjr/VR-PRO-C147/main/assets/dining-table.jpeg"
+          ></a-box>
+
+          <a-box
+           color="black"
+           position="0 3 0 "
+           rotation="90 0 0"
+           width="2"
+           depth="1.8"
+          >
+          </a-box>
+          <a-box
+           color="grey"
+           position="0 3 0 "
+           rotation="90 0 0"
+           width="1.4"
+           depth="1.2"
+          >
+          </a-box>
+          <a-box
+           color="black"
+           position="0 2.5 0 "
+           rotation="90 0 0"
+           width="1.4"
+           height="4"
+           depth="0.2"
+          >
+          </a-box>
+
+
+
+    </a-scene>
+
+</body>
+
+</html>
